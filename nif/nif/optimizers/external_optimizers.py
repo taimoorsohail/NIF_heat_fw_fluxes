@@ -1,7 +1,7 @@
 import functools
 
 import tensorflow as tf
-from tensorflow.python.distribute import distribution_strategy_context as distribute_ctx
+from tensorflow.python.distribute import distribute_coordinator_context as distribute_ctx
 from tensorflow.python.distribute import parameter_server_strategy
 from tensorflow.python.distribute import values as ds_values
 from tensorflow.python.eager import context
